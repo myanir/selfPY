@@ -1,0 +1,5 @@
+bricks=int(input("enter number of bricks"))
+total_bricks=int(bricks//100+bricks % 10 +bricks/10%10)
+print(total_bricks)
+print(total_bricks//3)
+print(total_bricks%3)

@@ -1,0 +1,83 @@
+git config --global user.name "GILI" #(global setting for this user)
+git config --global user.email "mgili@gmail.com"
+git config --list #view all setting 
+git config user.name #view one item
+clear
+git help
+git help commit
+
+pwd
+ls -la #show hidden files
+git add . #after adding file update GIT foilder
+git commit -m "meessage details for logging comment" #make snapshot with time
+git log  #show commit history
+git log  --author="Yanir Melamed" #show log for a user only
+git status #is there any new files that we didnt commit yet(in working copy (on local computer))?
+
+working copy(files on local computer)name in red>after git add its in  staging area (files that will be comiited)name in green>after commit files in repository(git status to check it OR git log)
+
+for updating a file after changing it >
+  101  git add git_manual.txt
+  102  git status
+  103  git commit -m "test"
+  104  git status
+  105  history
+
+
+for updating few files after changing them >
+git stauts #(see files modified(different from repo)
+git add . #(move to statging area)
+git commit -m "this is how to update multi files"
+git status #check that everything done
+
+to check differences from branch(repo) to local(working area):
+git status #we can see if there were changes 
+git diff #show in red what in branch and green whats local
+git add FILENAME or git add .
+git commit -m "message what changed"
+
+to check differences from branch(repo) to staging area (after git add done):
+git diff --staged
+git commit -m "changes from staging area to repo"
+git status
+
+git rm FILENAME #delete from branch (need COMMIT) and locally
+
+when rename file name (like in windows explorer):
+git status
+git add NEWFILE
+git rm OLDFILENAME
+git status
+git commit -m "renamed FILENAME to NEWFILE_NAME"
+
+option2 to rename/move file:
+git mv oldname.txt newname.txt
+git mv oldname.txt Foldername/Newname.txt
+git commit -m "rename file and move to folder"
+
+git commit -am "this is how to skip the staging area  and move directly to repo"
+
+restore file from repo to working area:
+git checkout -- index.html
+
+git reset <file> Remove <file> from the staging area, but leave the working directory
+unchanged. This unstages a file without overwriting any changes.
+
+git log #show the log of the commits
+
+to restore old version from the git log output to staging area:
+git checkout  VERSION_FROM_LOG -- index.html(file name)
+OR
+git checkout master
+git commit -am "restore file from repo"
+
+connect git project from pc to github:
+git remote add githubhangman https://github.com/myanir/selfpy.git
+git remote #will output the remote
+
+to upload files to repo:
+git push -u githubhangman master
+
+.gitignore file will keep which files to ignore
+
+
