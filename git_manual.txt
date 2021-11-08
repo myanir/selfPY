@@ -81,3 +81,4 @@ git push -u githubhangman master
 .gitignore file will keep which files to ignore
 
 
+connect gihub to pycharm : https://www.youtube.com/watch?v=7sinNdn49Uk
