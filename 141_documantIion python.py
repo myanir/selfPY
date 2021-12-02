@@ -53,9 +53,12 @@ math.sqrt(25)
 
 
 function_name (parameter1,parameter2)
+https://docs.python.org/3/library/functions.html
 
 object.method_name(parameter1,parameter2) #קריאה למטודה עבור האובייקט
                                            # האובייקט הןא פרמטר 0 עבור המטודה
+https://docs.python.org/3/library/stdtypes.html
+https://docs.python.org/3/library/stdtypes.html#string-methods
 "print me in uppercase".upper()
 "1".zfill(5) #method on string object
 
