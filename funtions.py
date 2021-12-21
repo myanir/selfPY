@@ -6,6 +6,7 @@ def amount_of_oranges(big_glass=10, small_glass=20):
     return orange_result, kg_result
 
 
-#oranges_number, kg_oranges = amount_of_oranges(3, 5)
-#print("oranges_number", oranges_number, "\nkg_oranges", kg_oranges)
+# oranges_number, kg_oranges = amount_of_oranges(3, 5)
+# print("oranges_number", oranges_number, "\nkg_oranges", kg_oranges)
+amount_of_oranges(small_glass=3, big_glass=5) #call function with name and value
 amount_of_oranges()
