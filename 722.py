@@ -14,7 +14,7 @@ def numbers_letters_count(my_str):
 
 #st=input("enter sentense with numbers :")
 #numbers_letters_count(st)
-print(numbers_letters_count("Python 3.6.311"))#print number of unmbers and numers of not numbers
-
+numbers,letters=(numbers_letters_count("Python 3.6.311"))#print number of nunmbers and number of not numbers
+print("number of numbers:",numbers,"\nnumber of letters",letters)
 
 

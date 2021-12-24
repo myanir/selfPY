@@ -25,6 +25,6 @@ n=0
 list_allready_guessed=[]
 while n<10:
     guess = input("please enter1 char for your guess: ")
-    isvalid=is_valid_input(guess,list_allready_guessed)
-    print(isvalid)
-    n+=1
+    isvalid=is_valid_input(guess, list_allready_guessed)
+    print(isvalid," list allready guest:",list_allready_guessed,)
+    n+=10

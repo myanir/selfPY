@@ -139,6 +139,7 @@ def  num_of_water_bottles():
 :return:    <discription which value we return /return None
 :rtype: which type we return (var/float/...)
 
+https://www.programiz.com/python-programming/docstrings
 ==============================
 my_math.py
 def add(num1, num2):
@@ -200,3 +201,14 @@ for letter in animal:
 for num in range (9,2,-1): #range(start,stop,step) range(5) will proint 0 till 4
 
     print (num)
+=====================
+def power(base, exponent):
+   """Calculates a number raised to a power.
+   :param base: base value
+   :param exponent: exponent value
+   :type base: int
+   :type exponent: int
+   :return: The result of raising base to the power exponent
+   :rtype: int
+   """
+   return base ** exponent
