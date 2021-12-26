@@ -1,5 +1,6 @@
 #https://www.youtube.com/watch?v=yVGSeRcQfyI
 #string formatting
+#https://pyformat.info/
 
 data = ("self", "py", 1.543)
 format_string = "Hello"
