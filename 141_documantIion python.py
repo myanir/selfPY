@@ -212,3 +212,10 @@ def power(base, exponent):
    :rtype: int
    """
    return base ** exponent
+
+ ========================
+
+tupple:like list but cannot be changed, take less memory.
+use tupple when i know the number of needed variables and there value
+salad = ("cucumber", "tomato", "onion") #tupple use() / list use[]
+print(type(salad))

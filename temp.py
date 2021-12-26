@@ -14,3 +14,5 @@ def shift_left(mylist):
 name=list("yanir")
 shift_left(name)
 
+salad = ("cucumber", "tomato", "onion")
+print(type(salad))
